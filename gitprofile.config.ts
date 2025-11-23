@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['subhash/gitprofile', 'subhash/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -51,11 +51,11 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Subhash Vasarapu', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'subhashvasarapu',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -65,38 +65,64 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'aryansubhash999@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+      // Cloud
+  'Cloud Fundamentals',
+  'Microsoft Azure',
+  'Azure Resource Manager (ARM)',
+  'Azure Governance (RBAC, Policy)',
+  'Azure Monitor & Logs',
+
+  // Cyber Security
+  'Cyber Security Fundamentals',
+  'Network Security',
+  'Zero Trust Basics',
+  'Identity & Access Management (Entra ID)',
+  'Azure Defender / Defender for Cloud',
+  'SIEM (Microsoft Sentinel)',
+  'Vulnerability Management Basics',
+
+  // Azure Networking
+  'Azure Virtual Network (VNet)',
+  'Subnets & IP Addressing',
+  'Network Security Groups (NSG)',
+  'Azure VPN Gateway',
+  'Azure ExpressRoute Basics',
+  'Azure Application Gateway & WAF',
+  'Azure Load Balancer',
+  'Azure Firewall',
+  'Private Endpoint & Private Link',
+  'Azure DNS & Private DNS',
+  'Azure Bastion',
+
+  // AI & ML
+  'AI & ML Fundamentals',
+  'Python for AI/ML',
+  'Data Preprocessing & Cleaning',
+  'Supervised Learning',
+  'Unsupervised Learning',
+  'Deep Learning Basics',
+  'Large Language Models (LLMs)',
+  'Prompt Engineering',
+  'Azure Machine Learning',
+  'Azure OpenAI Service',
   ],
   experiences: [
     {
-      company: 'Company Name',
+      company: 'Microsoft',
       position: 'Position',
       from: 'September 2021',
       to: 'Present',
@@ -155,7 +181,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'subhashvasarapu', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -220,7 +246,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/subhashvasarapu/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
